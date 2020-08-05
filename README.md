@@ -4,14 +4,14 @@
 
 ## Instalação
 
-### 1. Clone o repositório
+### 1. Clone o Repositório
 
 ```sh
 git clone https://github.com/HerbertVeloso/desafio-yourdev.git
 cd desafio-yourdev
 ```
 
-### 4. Instale as dependências & rode localmente
+### 2. Instale as Dependências & Rode Localmente
 
 ```sh
 yarn install
