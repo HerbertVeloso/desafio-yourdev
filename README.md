@@ -7,7 +7,7 @@
 ### 1. Clone o repositório
 
 ```sh
-git clone https://github.com/HerbertVeloso/desafio-yourdev
+git clone https://github.com/HerbertVeloso/desafio-yourdev.git
 cd desafio-yourdev
 ```
 
