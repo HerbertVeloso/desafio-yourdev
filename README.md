@@ -17,3 +17,7 @@ cd desafio-yourdev
 yarn install
 yarn start
 ```
+
+### 3. Abra o Spotify
+
+A aplicação só reproduz e controla o estado do player do Spotify, então é preciso estar com o Spotify aberto para poder ouvir as músicas.
