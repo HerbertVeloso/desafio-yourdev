@@ -87,7 +87,7 @@ const Recommended = () => {
       <S.Title>Músicas Recomendadas</S.Title>
       {/* Lista os dados para cada artista */}
       {artists.map((item, index) => {
-        let musics = 0
+        let musics = {}
         switch (index) {
           // Seleciona de qual lista vai pegar
           case 0:
@@ -108,8 +108,9 @@ const Recommended = () => {
               {/* Renderiza um card para cada música do artista  */}
               {
                 musics.tracks !== undefined ?
-                  musics.tracks.map(item => 
+                  musics.tracks.map((item) => 
                     <Card 
+                      key={item.id}
                       img={item.album !== undefined ? item.album.images[0].url : null}
                       name={item.name}
                       artists={item.artists}
